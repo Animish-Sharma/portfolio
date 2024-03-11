@@ -79,7 +79,7 @@
                     flex-direction: row;
                     .itext{
                         padding: 0 3%;
-                        font-size: 1.9vh;
+                        font-size: .9vw;
                         font-family: "Poppins",sans-serif;
                         margin: 0;
                     }
@@ -161,7 +161,7 @@
             font-size: 3.2vw !important;
         }
         .box{
-            flex-direction: column !important;
+            
             h2{
                 text-align: left !important;
             }
@@ -194,6 +194,7 @@
         }
         .box{
             width: 100% !important;
+            flex-direction: column !important;
             div{
                 border: none !important;
                 width: 100% !important;

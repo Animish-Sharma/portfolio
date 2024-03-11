@@ -44,7 +44,7 @@ export default function Home() {
             <div>
               <h2>Who am I ?</h2>
               <span className={styles.idiv}>
-                <img src="http://localhost:3000/images/as.jpg" />
+                <Image width={400} height={500} src="/images/as.jpg" />
                 <p className={styles.itext}>I'm a passionate web developer with a keen interest in exploring the fascinating realms of machine learning and artificial intelligence. With a solid foundation in web development technologies and frameworks, I thrive on crafting engaging and user-friendly digital experiences.As a web developer, I specialize in front-end and back-end development, utilizing languages such as HTML, CSS, JavaScript, and frameworks like React.js and Django. I enjoy turning design concepts into functional, responsive websites and applications, striving for both aesthetic appeal and seamless functionality.Driven by a curiosity for emerging technologies, I've recently embarked on a journey into the world of machine learning and AI. Eager to expand my skill set, I'm currently immersing myself in courses, tutorials, and hands-on projects to deepen my understanding of algorithms, neural networks, and data analysis.</p>
               </span>
             </div>
