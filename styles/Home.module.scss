@@ -62,7 +62,7 @@
                 font-family: "Prata",serif;
                 text-align: center;
                 padding: 2% 0;
-                font-size: 2.1vw !important;
+                font-size: 2.1vw ;
             }
             div{
                 width: 25%;
@@ -154,7 +154,7 @@
     @media only screen and (max-width: 768px) {
         .news{
             .newstext{
-                font-size: 2vw !important;
+                font-size: 4vw !important;
             }
         }
         h1{
@@ -185,16 +185,26 @@
     }
     @media only screen and (max-width: 425px) {
         .news{
+            h1{
+                font-size: 10vw !important;
+                text-align: center !important;
+            }
             .newstext{
-                font-size: 2vw !important;
+                display: none;
             }
         }
         h1{
-            font-size: 3.2vw !important;
+            font-size: 10vw !important;
         }
         .box{
             width: 100% !important;
             flex-direction: column !important;
+            h2{
+                font-size: 6vw !important;
+            }
+            p,h3,a{
+                font-size: 3.8vw !important;
+            }
             div{
                 border: none !important;
                 width: 100% !important;

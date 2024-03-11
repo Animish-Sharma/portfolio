@@ -37,7 +37,7 @@ export default function Home() {
             wrapper="span"
             speed={25}
             deletionSpeed={90}
-            style={{ fontSize: '2em', display: 'inline-block' }}
+            style={{ fontSize: '2.5em', display: 'inline-block' }}
             repeat={Infinity}
           /></h1>
           <div className={styles.box}>
